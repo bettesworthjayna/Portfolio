@@ -1,5 +1,6 @@
 
 <template>
+  <Navbar />
   <div>
     <ul>
     <li><router-link :to="{name: 'home'}">Home</router-link></li>
@@ -11,6 +12,7 @@
 </template>
 <script setup>
 import {RouterView, RouterLink } from 'vue-router'
+import Navbar from './components/Navbar.vue'
 </script>
 
 
