@@ -1,18 +1,10 @@
 <template>
-    <div>
+    <div class="padding-10 d-flex align-left justify-left">
       <h2>Hi</h2>
-      <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="../assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
     </div>
-    <CounterButton />
   
   </template>
   <script setup>
-  import CounterButton from '../components/CounterButton.vue';
   </script>
 
 <style scoped>
